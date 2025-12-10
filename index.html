@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tecbot</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app-container">
+        
+        <!-- Main Chat Area -->
+        <main class="main-container">
+            <!-- Header -->
+            <header class="header">
+                <div class="header-content">
+                    <h1 id="chatTitle">Asistente de AI - Equipos de computo</h1>
+                </div>
+            </header>
+
+            <!-- Chat Messages -->
+            <div class="chat-messages" id="chatMessages"></div>
+
+            <!-- Input Area -->
+            <div class="input-container">
+                <div class="input-wrapper">
+                    <textarea 
+                        id="messageInput" 
+                        class="message-input" 
+                        placeholder="Hazme una pregunta..." 
+                        rows="1"
+                    ></textarea>
+                    <div class="input-actions">
+                        <button class="btn-send" id="sendBtn" title="Enviar (Enter)">
+                            ➤
+                        </button>
+                    </div>
+                </div>
+                <div class="input-footer">
+                    <span class="disclaimer">TecBot puede cometer erroes. Verifica información importante.</span>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
